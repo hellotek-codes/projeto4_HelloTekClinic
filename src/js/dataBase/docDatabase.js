@@ -1,7 +1,7 @@
 export const data = [
   {
     id: 1,
-    img: "./img/",
+    img: "././src/imgs/doctors/james_smith.jpg",
     drName: "James Smith",
     gender: "male",
     description: "Plastic Surgeon & Cosmetic Consultant",
@@ -12,7 +12,7 @@ export const data = [
   },
   {
     id: 2,
-    img: "./img/",
+    img: "././src/imgs/doctors/susan_johnson.png",
     drName: "Susan Johnson",
     gender: "female",
     description: "Cosmetic Surgeon",
@@ -23,7 +23,7 @@ export const data = [
   },
   {
     id: 3,
-    img: "./img/",
+    img: "././src/imgs/doctors/karen_williams.png",
     drName: "Karen Williams",
     gender: "female",
     description: "Cosmetic Dermatologist",
@@ -34,7 +34,7 @@ export const data = [
   },
   {
     id: 4,
-    img: "./img/",
+    img: "././src/imgs/doctors/jessica_jones.png",
     drName: "Jessica Jones",
     gender: "female",
     description: "Medical Aesthetician",
@@ -45,7 +45,7 @@ export const data = [
   },
   {
     id: 5,
-    img: "./img/",
+    img: "././src/imgs/doctors/david_brown.png",
     drName: "David Brown",
     gender: "male",
     description: "Cosmetic Dermatologist",
@@ -56,7 +56,7 @@ export const data = [
   },
   {
     id: 6,
-    img: "./img/",
+    img: "././src/imgs/doctors/robert_martinez.png",
     drName: "Robert Martinez",
     gender: "male",
     description: "Plastic Surgeon ",

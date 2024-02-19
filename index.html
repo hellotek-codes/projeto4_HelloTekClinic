@@ -1,49 +1,41 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-    <link rel="stylesheet" href="./src/css/stylesIndex.css">
-    <link rel="stylesheet" href="./src/css/reset.css">
-    
+    <link rel="stylesheet" href="./src/css/stylesIndex.css" />
+    <link rel="stylesheet" href="./src/css/reset.css" />
+
     <title>EncontreDoc Tek</title>
-</head>
-<body>
+  </head>
+  <body>
     <header>
-        <div class="hero_image"></div>
-        <nav>
-            <img src="./src/imgs/logo.png" id="logo">
-            <ul>
-                <li>Médicos</li>
-                <li>Clinicas</li>
-                <li>Tratamentos</li>
-                <li>Contato</li>
-            </ul>
-        </nav>
-    </header>    
-    <main>
-        <div class="search_container">
-            <h1>Encontre os melhores médicos e profissionais da área da saúde aqui</h1>
-
-            <div>
-                <input type="text">
-                <button>Search</button>
-            </div>
-        </div>
+      <div class="hero_image"></div>
+      <nav>
+        <img src="./src/imgs/logo.png" id="logo" />
         <ul>
-            <li class="cards">
-                <div>
-                    <img src="#">
-                </div>
-                <div>
-
-                </div>
-            </li>
+          <li>Médicos</li>
+          <li>Clinicas</li>
+          <li>Tratamentos</li>
+          <li>Contato</li>
         </ul>
-    </main>
-    <footer>
+      </nav>
+    </header>
+    <main>
+      <div class="search_container">
+        <h1>
+          Encontre os melhores médicos e profissionais da área da saúde aqui
+        </h1>
 
-    </footer>
-</body>
+        <div>
+          <input type="text" />
+          <button>Search</button>
+        </div>
+      </div>
+      <ul id="cards_container"></ul>
+    </main>
+    <footer></footer>
+    <script type="module" src="./src/js/scripts.js"></script>
+  </body>
 </html>
