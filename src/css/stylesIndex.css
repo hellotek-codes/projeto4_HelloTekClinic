@@ -1,24 +1,52 @@
 body {
   width: 100%;
   height: 100vh;
+
+  background-color: #e7e7e7;
 }
 
 header {
   width: 100%;
-  height: 50rem;
+  height: 40rem;
 
   display: flex;
   flex-direction: column;
   align-items: center;
-  background-color: #191919;
 
-  padding: 4rem 0;
-  margin-bottom: 2rem;
+  /* margin-bottom: 2rem; */
 
   position: relative;
+
+  /* background-color: yellow; */
+}
+
+.hero_image {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  bottom: 0;
+
   background-image: url("../imgs/mainImg.jpg");
   background-repeat: no-repeat;
   background-size: cover;
+
+  @media (max-width: 640px) {
+    background-image: url("../imgs/mainImg2.png");
+  }
+}
+
+#logo {
+  width: 100px;
+  height: 60px;
+  position: absolute;
+  left: 10px;
+  padding: 0px 20px 0px 10px;
+  border-right: 2px solid #6b6775;
+
+  @media (max-width: 870px) {
+    position: relative;
+    border: none;
+  }
 }
 
 nav {
@@ -26,6 +54,8 @@ nav {
   height: 5rem;
   max-width: 55rem;
   border-radius: 20px;
+
+  margin-top: 1rem;
 
   display: flex;
   align-items: center;
@@ -35,20 +65,100 @@ nav {
   background-color: #fff;
 
   ul {
-    width: 37rem;
+    width: auto;
     display: flex;
+    flex-wrap: wrap;
     align-items: center;
     justify-content: space-around;
 
-    /* background-color: #fff; */
+    background-color: #fff;
+
+    li {
+      color: #6b6775;
+      font-size: 1.4rem;
+      margin: 1.25rem;
     }
+
+    @media (max-width: 870px) {
+      border-top: 2px solid #6b6775;
+      margin-top: 0;
+    }
+  }
+
+  @media (max-width: 870px) {
+    flex-direction: column;
+    gap: 1rem;
+    height: auto;
+
+    padding: 1rem;
+  }
 }
 
+main {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: relative;
 
-#logo {
-  width: 80px;
-  position: absolute;
-  left: 0;
-  border-top-left-radius: 20px;
-  border-bottom-left-radius: 20px;
+  .search_container {
+    width: 90%;
+    max-width: 55rem;
+    position: absolute;
+    top: -85px;
+
+    padding: 2rem 1rem;
+
+    border-radius: 20px;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 1.5rem;
+
+    background-color: #fff;
+
+    text-align: center;
+
+    h1 {
+      font-size: 1.8rem;
+      color: #6b6775;
+      align-self: center;
+    }
+
+    div {
+      width: 100%;
+      text-align: center;
+      input {
+        width: 70%;
+        background-color: #e7e7e7;
+        padding: 1rem 10rem;
+        border-radius: 1rem 0 0 1rem;
+
+        @media (max-width: 500px) {
+          width: 100%;
+          border-radius: 0.6rem;
+        }
+      }
+
+      button {
+        padding: 1rem;
+        border-radius: 0 1rem 1rem 0;
+        background-color: #0a81d1;
+
+        @media (max-width: 500px) {
+          width: 50%;
+          border-radius: 0.6rem;
+        }
+      }
+
+      @media (max-width: 500px) {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 1rem;
+      }
+    }
+  }
 }
