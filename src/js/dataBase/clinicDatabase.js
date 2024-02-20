@@ -1,7 +1,7 @@
 export const data = [
   {
     id: 1,
-    img: "./img/",
+    img: "../imgs/clinics/st_peters.jpg",
     clinicName: "St. Peters Healthcare",
     description: "Spa for skin treatments",
     city: "London",
@@ -9,7 +9,7 @@ export const data = [
   },
   {
     id: 2,
-    img: "./img/",
+    img: "../imgs/clinics/marylin_spa.jpg",
     clinicName: "Marylin Spa",
     description: "Weight loss",
     city: "York",
@@ -17,7 +17,7 @@ export const data = [
   },
   {
     id: 3,
-    img: "./img/",
+    img: "../imgs/clinics/psychologist.jpg",
     clinicName: "Susan Mayer Clinic",
     description: "Psychologists",
     city: "Manchester",
@@ -25,7 +25,7 @@ export const data = [
   },
   {
     id: 4,
-    img: "./img/",
+    img: "../imgs/clinics/jones_aesthetics.jpg",
     clinicName: "Jones Aesthetics & Health",
     description: "Plastic Sugeons",
     city: "Liverpool",
@@ -33,7 +33,7 @@ export const data = [
   },
   {
     id: 5,
-    img: "./img/",
+    img: "../imgs/clinics/miller_wiliams.jpg",
     clinicName: "Miller and Williams Healthcare",
     description: "Cosmetic Dermatologist",
     city: "Glasgow",
@@ -41,7 +41,7 @@ export const data = [
   },
   {
     id: 6,
-    img: "./img/",
+    img: "../imgs/clinics/medical_aesthetics.jpg",
     clinicName: "Oxford Face",
     description: "Medical Aesthetician",
     city: "Oxford",

@@ -1,5 +1,3 @@
-/* @import url("https://fonts.googleapis.com/css2?family=Lato:ital,wght@;0,300;;0,700;1,100;1,300;1,400;1,700;1,900&display=swap"); */
-
 body {
   width: 100%;
   height: 100vh;
@@ -146,7 +144,7 @@ main {
       }
 
       button {
-        padding: 1rem;
+        padding: 0.95rem;
         border-radius: 0 1rem 1rem 0;
         background-color: #0a81d1;
 
