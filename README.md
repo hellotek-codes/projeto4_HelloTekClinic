@@ -57,3 +57,23 @@ Fotos Clinicas:
 
 - psychologist: https://pixabay.com/pt/photos/psic%C3%B3logo-psicanalista-garota-6008049/
 Imagem de Олег Безруков por Pixabay
+
+Fotos Tratamentos: 
+
+- facial_cleasing: https://pixabay.com/pt/photos/mulher-creme-beleza-skincare-pele-4630131/
+Imagem de Nika Akin por Pixabay
+
+- botox_injections: https://pixabay.com/pt/photos/mulher-retrato-beleza-poc-bipoc-6670766/
+Imagem de Ransford Quaye por Pixabay
+
+- microneedling: https://pixabay.com/pt/photos/mulher-retrato-beleza-poc-bipoc-6670765/
+Imagem de Ransford Quaye por Pixabay
+
+- acne: https://pixabay.com/pt/photos/rosa-eyeshadow-make-up-natureza-5199207/
+Imagem de Nika Akin por Pixabay
+
+- chemical_peels: https://pixabay.com/pt/photos/mulher-moda-pele-lindo-garota-3191152/
+https://pixabay.com/pt/photos/mulher-moda-pele-lindo-garota-3191152/
+
+dermal_fillers: https://pixabay.com/pt/photos/est%C3%A9tica-esteticista-ampola-botox-5382055/
+Imagem de Lucas Pêgo Oliveira Pereira Luquinhas por Pixabay

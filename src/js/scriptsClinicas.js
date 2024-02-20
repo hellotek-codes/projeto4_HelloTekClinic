@@ -46,7 +46,7 @@ function displayCards(data) {
     const descriptionContact = document.createElement("div");
 
     const contact = document.createElement("p");
-    contact.textContent = `Contato: ${clinic.contact}`;
+    contact.textContent = `Contact: ${clinic.contact}`;
     descriptionContact.appendChild(contact);
 
     docDescription.appendChild(descriptionContact);

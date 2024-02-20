@@ -1,0 +1,61 @@
+form {
+  background-color: #fff;
+
+  width: 90%;
+  max-width: 55rem;
+ 
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 2rem;
+  padding: 1rem;
+  margin: 4rem 0;
+
+  border-radius: 10px;
+
+  h3 {
+    font-size: 2rem;
+    color: #6b6775;
+    font-weight: bold;
+
+    margin-top: 1rem;
+  }
+
+  input, textarea {
+    width: 90%;
+    padding: 1.8rem;
+    border-radius: 10px;
+    color: #6b6775;
+
+    background-color: #e7e7e7;
+    resize: none;
+
+    font-family: "Lato", sans-serif;
+  }
+
+  button {
+    font-family: "Lato", sans-serif;
+    padding: 1rem 3rem;
+    border-radius: 10px;
+
+    color: #fff;
+    background-color:  #0a81d1;
+  }
+
+
+}
+
+@keyframes fadeInUp {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+form {
+  animation: fadeInUp 2s ease forwards;
+}

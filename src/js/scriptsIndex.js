@@ -46,11 +46,11 @@ function displayCards(data) {
     const descriptionContact = document.createElement("div");
 
     const consultationFee = document.createElement("p");
-    consultationFee.textContent = `Consulta R$ ${doctor.consultationFee}`;
+    consultationFee.textContent = `Consultation Fee $ ${doctor.consultationFee}`;
     descriptionContact.appendChild(consultationFee);
 
     const contact = document.createElement("p");
-    contact.textContent = `Contato: ${doctor.contact}`;
+    contact.textContent = `Contact: ${doctor.contact}`;
     descriptionContact.appendChild(contact);
 
     docDescription.appendChild(descriptionContact);

@@ -10,12 +10,14 @@
       color: #6b6775;
     }
   
-    input {
+    input, textarea {
       border: none;
     }
   
     button {
       border: none;
       outline: none;
+
+      cursor: pointer;
     }
   }
