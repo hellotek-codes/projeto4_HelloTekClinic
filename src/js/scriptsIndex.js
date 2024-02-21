@@ -66,11 +66,10 @@ displayCards(data);
 // Mecanismo de procura
 searchButton.addEventListener("click", handleSearch);
 
-function handleSearch(){
-
+function handleSearch() {
   const searchTerm = searchInput.value.trim().toLowerCase();
   const cards = document.querySelectorAll(".cards");
-  
+
   let matchedCards = [];
 
   for (let i = 0; i < data.length; i++) {
@@ -90,18 +89,18 @@ function handleSearch(){
   if (matchedCards.length !== 0) {
     cardsContainer.innerHTML = "";
     displayCards(matchedCards);
-    clearTextInput()
+    clearTextInput();
   } else {
     alert("Termo não encontrado, por favor pesquise novamente!");
     displayCards(data);
-    clearTextInput()
+    clearTextInput();
   }
-};
+}
 
 //Limpar a barra de procura
-function clearTextInput(){
-  let textInput = document.querySelector('#search_input');
-  if(textInput != ''){
-      textInput.value = '';
+function clearTextInput() {
+  let textInput = document.querySelector("#search_input");
+  if (textInput != "") {
+    textInput.value = "";
   }
-};
+}

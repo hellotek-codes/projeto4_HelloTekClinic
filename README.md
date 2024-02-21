@@ -77,3 +77,6 @@ https://pixabay.com/pt/photos/mulher-moda-pele-lindo-garota-3191152/
 
 dermal_fillers: https://pixabay.com/pt/photos/est%C3%A9tica-esteticista-ampola-botox-5382055/
 Imagem de Lucas Pêgo Oliveira Pereira Luquinhas por Pixabay
+
+
+OBS: Search - Funcionalidade apenas com o click.
