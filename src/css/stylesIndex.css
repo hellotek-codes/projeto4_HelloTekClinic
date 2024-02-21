@@ -14,6 +14,10 @@ header {
   align-items: center;
 
   position: relative;
+
+  @media (max-width: 768px) {
+    height: 38%;
+  }
 }
 
 .hero_image {
@@ -27,7 +31,7 @@ header {
   background-size: cover;
 
   @media (max-width: 768px) {
-    background-image: url("../imgs/mainImg2.jpg");
+    background-image: url("../imgs/test.jpg");
   }
 }
 
@@ -172,7 +176,7 @@ main {
 
     @media (max-width: 510px) {
       position: relative;
-      top: 0;
+      top: -50px;
     }
   }
 
