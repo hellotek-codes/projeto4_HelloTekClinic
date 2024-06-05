@@ -1,7 +1,7 @@
 export const data = [
   {
     id: 1,
-    img: "../imgs/clinics/st_peters.jpg",
+    img: "../img/clinics/st_peters.jpg",
     clinicName: "St. Peters Healthcare",
     description: "Spa for skin treatments. Celebrate radiant skin at our luxurious spa clinic, where rejuvenation meets indulgence. Experience a harmonious blend of advanced skincare treatments and soothing therapies designed to revitalize your skin's natural glow.",
     city: "London",
@@ -9,7 +9,7 @@ export const data = [
   },
   {
     id: 2,
-    img: "../imgs/clinics/marylin_spa.jpg",
+    img: "../img/clinics/marylin_spa.jpg",
     clinicName: "Marylin Spa",
     description: "At our weight loss clinic, we're dedicated to helping you achieve your health and wellness goals. Our personalized approach combines expert medical guidance, customized meal plans, and ongoing support to help you shed unwanted pounds and embrace a healthier lifestyle.",
     city: "York",
@@ -17,7 +17,7 @@ export const data = [
   },
   {
     id: 3,
-    img: "../imgs/clinics/psychologist.jpg",
+    img: "../img/clinics/psychologist.jpg",
     clinicName: "Susan Mayer Clinic",
     description: "We provide compassionate and professional mental health services tailored to your individual needs. Our team of experienced psychologists offers expert counseling and therapy to help you navigate life's challenges, overcome obstacles, and achieve greater mental well-being. ",
     city: "Manchester",
@@ -25,7 +25,7 @@ export const data = [
   },
   {
     id: 4,
-    img: "../imgs/clinics/jones_aesthetics.jpg",
+    img: "../img/clinics/jones_aesthetics.jpg",
     clinicName: "Jones Aesthetics & Health",
     description: "Welcome to Jones Aesthetics & Health, where we specialize in transforming dreams into reality. Our expert team of plastic surgeons combines artistry with advanced medical techniques to enhance your natural beauty and boost your confidence. ",
     city: "Liverpool",
@@ -33,7 +33,7 @@ export const data = [
   },
   {
     id: 5,
-    img: "../imgs/clinics/miller_wiliams.jpg",
+    img: "../img/clinics/miller_wiliams.jpg",
     clinicName: "Miller and Williams Healthcare",
     description: "Our team of skilled Cosmetic Dermatologists is dedicated to enhancing your natural beauty and restoring your confidence. From advanced skincare treatments to personalized aesthetic procedures, we offer comprehensive solutions tailored to your unique needs. ",
     city: "Glasgow",
@@ -41,7 +41,7 @@ export const data = [
   },
   {
     id: 6,
-    img: "../imgs/clinics/medical_aesthetics.jpg",
+    img: "../img/clinics/medical_aesthetics.jpg",
     clinicName: "Oxford Face",
     description: "Discover the art of skincare at our clinic, where our experienced Medical Aesthetician specializes in advanced treatments tailored to rejuvenate and enhance your natural beauty. ",
     city: "Oxford",

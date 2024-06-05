@@ -1,7 +1,7 @@
 export const data = [
   {
     id: 1,
-    img: "././src/imgs/doctors/james_smith.jpg",
+    img: "././src/img/doctors/james_smith.jpg",
     drName: "James Smith",
     gender: "male",
     description: "A successful plastic surgeon is a skilled medical professional who specializes in enhancing and reconstructing physical appearance. They possess exceptional surgical expertise, a keen eye for aesthetics, and a deep understanding of patient needs. Beyond technical proficiency, they exhibit empathy, effective communication, and a commitment to patient safety and satisfaction.",
@@ -12,7 +12,7 @@ export const data = [
   },
   {
     id: 2,
-    img: "././src/imgs/doctors/susan_johnson.png",
+    img: "././src/img/doctors/susan_johnson.png",
     drName: "Susan Johnson",
     gender: "female",
     description: "A successful Cosmetic Surgeon is an expert in enhancing aesthetic appearance through surgical procedures. With meticulous attention to detail and artistic skill, they transform patients' desires into reality, delivering natural-looking results. Their comprehensive understanding of facial and body anatomy, coupled with advanced surgical techniques, ensures safe and effective outcomes.",
@@ -23,7 +23,7 @@ export const data = [
   },
   {
     id: 3,
-    img: "././src/imgs/doctors/karen_williams.png",
+    img: "././src/img/doctors/karen_williams.png",
     drName: "Karen Williams",
     gender: "female",
     description: "Through a deep understanding of dermatology, advanced cosmetic procedures, and personalized treatment plans, they rejuvenate skin, correct imperfections, and boost confidence. With a commitment to innovation, empathy, and patient satisfaction, they strive to deliver natural-looking results and maintain the highest standards of care in the ever-evolving field of cosmetic dermatology.",
@@ -34,7 +34,7 @@ export const data = [
   },
   {
     id: 4,
-    img: "././src/imgs/doctors/jessica_jones.png",
+    img: "././src/img/doctors/jessica_jones.png",
     drName: "Jessica Jones",
     gender: "female",
     description: "Medical Aesthetician. Their proficiency extends beyond technical abilities to encompass a deep understanding of dermatology, skin physiology, and cosmetic chemistry. With a keen eye for detail and a commitment to ongoing education, they stay abreast of the latest trends and innovations in skincare technology.",
@@ -45,7 +45,7 @@ export const data = [
   },
   {
     id: 5,
-    img: "././src/imgs/doctors/david_brown.png",
+    img: "././src/img/doctors/david_brown.png",
     drName: "David Brown",
     gender: "male",
     description: "Cosmetic Dermatologist. Through meticulous evaluation and personalized treatment plans, they address various skin concerns such as aging, pigmentation, and texture irregularities, aiming to enhance the appearance and confidence of their patients. ",
@@ -56,7 +56,7 @@ export const data = [
   },
   {
     id: 6,
-    img: "././src/imgs/doctors/robert_martinez.png",
+    img: "././src/img/doctors/robert_martinez.png",
     drName: "Robert Martinez",
     gender: "male",
     description: "Highly skilled and compassionate medical professional dedicated to enhancing the aesthetic appearance and restoring function through surgical and non-surgical interventions. Renowned for their commitment to patient satisfaction, ethical practice, and continuous learning, they strive to deliver exceptional results while prioritizing patient safety and well-being.",
