@@ -33,12 +33,12 @@ body {
       position: absolute;
       bottom: 0;
 
-      background-image: url("../imgs/mainImg.jpg");
+      background-image: url("../img/mainImg.jpg");
       background-repeat: no-repeat;
       background-size: cover;
 
       @media (max-width: 768px) {
-        background-image: url("../imgs/test.jpg");
+        background-image: url("../img/test.jpg");
       }
     }
 
