@@ -40,20 +40,6 @@ header {
   }
 }
 
-#logo {
-  width: 100px;
-  height: 60px;
-  position: absolute;
-  left: 10px;
-  padding: 0px 20px 0px 10px;
-  border-right: 2px solid #6b6775;
-
-  @media (max-width: 870px) {
-    position: relative;
-    border: none;
-  }
-}
-
 a:hover{
   
   color: #0a81d1;
@@ -73,6 +59,20 @@ nav {
   position: relative;
 
   background-color: #fff;
+
+  #logo {
+    width: 100px;
+    height: 60px;
+    position: absolute;
+    left: 10px;
+    padding: 0px 20px 0px 10px;
+    border-right: 2px solid #6b6775;
+  
+    @media (max-width: 870px) {
+      position: relative;
+      border: none;
+    }
+  }
 
   ul {
     width: auto;
