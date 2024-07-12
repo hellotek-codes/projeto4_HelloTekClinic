@@ -4,7 +4,6 @@ const cardsContainer = document.getElementById("cards_container");
 const searchButton = document.getElementById("search_button");
 const searchInput = document.getElementById("search_input");
 
-// Criação dos cards
 function displayCards(data) {
   data.forEach((doctor) => {
     const li = document.createElement("li");
@@ -63,10 +62,10 @@ function displayCards(data) {
 
 displayCards(data);
 
-// Mecanismo de procura
 searchButton.addEventListener("click", handleSearch);
 
-function handleSearch() {
+function handleSearch(event) {
+  event.preventDefault();
   const searchTerm = searchInput.value.trim().toLowerCase();
   const cards = document.querySelectorAll(".cards");
 
@@ -91,13 +90,12 @@ function handleSearch() {
     displayCards(matchedCards);
     clearTextInput();
   } else {
-    alert("Termo não encontrado, por favor pesquise novamente!");
+    alert("I'm sorry I couldn't find it. Please try again.");
     displayCards(data);
     clearTextInput();
   }
 }
 
-//Limpar a barra de procura
 function clearTextInput() {
   let textInput = document.querySelector("#search_input");
   if (textInput != "") {

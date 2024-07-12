@@ -6,6 +6,7 @@
 
     <link rel="stylesheet" href="../css/reset.css" />
     <link rel="stylesheet" href="../css/stylesIndex.css" />
+    <link rel="stylesheet" href="../css/stylesContact.css" />
     <link
       href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap"
       rel="stylesheet"
@@ -18,63 +19,57 @@
       <div></div>
       <nav>
         <a href="../../index.html" class="logo_link">
-          <img src="../img/logo.png" />
+          <img src="../img/logo.png" alt="image logo of HealthFinder company"/>
         </a>
         <ul>
           <li>
-            <a href="/projeto4_HelloTekClinic/index.html">Doctors</a>
+            <a href="../../index.html">Doctors</a>
           </li>
           <li>
-            <a href="../pages/clinicas.html">Clinics</a>
+            <a href="../pages/clinics.html">Clinics</a>
           </li>
           <li>
-            <a href="../pages/tratamentos.html" class="active">Treatments</a>
+            <a href="../pages/treatments.html">Treatments</a>
           </li>
           <li>
-            <a href="../pages/contato.html">Contact</a>
+            <a href="../pages/contact.html" class="active">Contact</a>
           </li>
         </ul>
       </nav>
     </header>
 
     <main>
-      <div class="search_container">
-        <h1>Treatments right for you!</h1>
-
-        <div>
-          <input
-            type="text"
-            id="search_input"
-            placeholder="Treatments' name, city, specialty..."
-          />
-          <button id="search_button">Search</button>
-        </div>
-      </div>
-      <ul id="cards_container"></ul>
+      <form>
+        <h3>Contact Us</h3>
+        <input type="text" placeholder="Name" required />
+        <input type="email" placeholder="Email" required />
+        <input type="text" placeholder="Phone" required />
+        <textarea placeholder="Message"></textarea>
+        <button type="submit">Send</button>
+      </form>
     </main>
 
     <footer>
       <div>
         <ul>
           <li>
-            <a href="/projeto4_HelloTekClinic/index.html">Doctors</a>
+            <a href="../../index.html">Doctors</a>
           </li>
           <li>
-            <a href="../pages/clinicas.html">Clinics</a>
+            <a href="../pages/clinics.html">Clinics</a>
           </li>
           <li>
-            <a href="../pages/tratamentos.html" class="active">Treatments</a>
+            <a href="../pages/treatments.html">Treatments</a>
           </li>
           <li>
-            <a href="../pages/contato.html">Contact</a>
+            <a href="../pages/contact.html" class="active">Contact</a>
           </li>
         </ul>
         <p>HelloTek.io &#174;</p>
         <a href="../../index.html" class="foot_logo">
-          <img src="../img/logo.png"/>
+          <img src="../img/logo.png" alt="image logo of HealthFinder company"/>
         </a>
       </div>
     </footer>
-    <script type="module" src="../js/scriptsTratamentos.js"></script>
   </body>
 </html>

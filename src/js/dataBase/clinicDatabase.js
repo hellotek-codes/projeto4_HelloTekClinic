@@ -17,7 +17,7 @@ export const data = [
   },
   {
     id: 3,
-    img: "../img/clinics/psychologist.jpg",
+    img: "../img/clinics/susan_mayer_clinic.jpg",
     clinicName: "Susan Mayer Clinic",
     description: "We provide compassionate and professional mental health services tailored to your individual needs. Our team of experienced psychologists offers expert counseling and therapy to help you navigate life's challenges, overcome obstacles, and achieve greater mental well-being. ",
     city: "Manchester",
@@ -41,7 +41,7 @@ export const data = [
   },
   {
     id: 6,
-    img: "../img/clinics/medical_aesthetics.jpg",
+    img: "../img/clinics/oxford_face.jpg",
     clinicName: "Oxford Face",
     description: "Discover the art of skincare at our clinic, where our experienced Medical Aesthetician specializes in advanced treatments tailored to rejuvenate and enhance your natural beauty. ",
     city: "Oxford",
