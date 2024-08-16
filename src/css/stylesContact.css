@@ -9,6 +9,7 @@ form {
   padding: 1rem;
   margin: 4rem 0;
   border-radius: 10px;
+  animation: fadeInUp 2s ease forwards;
 
   h3 {
     font-size: 2rem;
@@ -35,6 +36,7 @@ form {
     color: #fff;
     background-color: #0a81d1;
   }
+
 }
 
 @keyframes fadeInUp {
@@ -46,8 +48,4 @@ form {
     opacity: 1;
     transform: translateY(0);
   }
-}
-
-form {
-  animation: fadeInUp 2s ease forwards;
 }
